@@ -190,7 +190,7 @@ svg {
 .hero-content {
   position: relative;
   text-align: center;
-  padding-top: 47px;
+  padding-top: 94px;
 }
 .eyebrow {
   display: inline-flex;
@@ -218,7 +218,7 @@ svg {
   line-height: 1.09;
   letter-spacing: -4px;
   font-weight: 500;
-  margin: 24px 0 22px;
+  margin: 48px 0 44px;
 }
 .headline-star {
   display: inline-block;
@@ -236,7 +236,7 @@ svg {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 27px;
+  margin-top: 54px;
 }
 .play-circle {
   border: 1px solid #828780;
@@ -250,7 +250,7 @@ svg {
   display: flex;
   justify-content: center;
   gap: 22px;
-  margin-top: 19px;
+  margin-top: 38px;
   font-size: 9px;
   color: #afb0a4;
 }
@@ -265,7 +265,7 @@ svg {
 .dashboard-wrap {
   text-align: left;
   max-width: 1000px;
-  margin: 69px auto 0;
+  margin: 138px auto 0;
   position: relative;
 }
 .dashboard {
@@ -662,13 +662,13 @@ svg {
 .partners {
   position: relative;
   text-align: center;
-  padding-top: 51px;
-  padding-bottom: 47px;
+  padding-top: 102px;
+  padding-bottom: 94px;
 }
 .partners > p {
   font-size: 10px;
   color: #848a8e;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 .partner-logos {
   display: flex;
@@ -735,12 +735,12 @@ svg {
   display: block;
   font-size: 8px;
   color: #71777c;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 .light-section {
   background: #f3f3ed;
   color: #191b1a;
-  padding: 90px 0 100px;
+  padding: 180px 0 200px;
 }
 .section-heading {
   text-align: center;
@@ -761,7 +761,7 @@ h2 {
   font-weight: 500;
 }
 .section-heading h2 {
-  margin: 17px 0;
+  margin: 34px 0;
 }
 .section-heading p {
   font-size: 12px;
@@ -772,7 +772,8 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
-  margin-top: 44px;
+  margin-top: 88px;
+  row-gap: 32px;
 }
 .feature-card {
   padding: 26px 26px 0;
@@ -980,27 +981,28 @@ h2 {
   margin-top: 8px;
 }
 .simulation {
-  margin-top: 94px;
+  margin-top: 188px;
   display: grid;
   grid-template-columns: 1fr 1.25fr;
   gap: 84px;
   align-items: center;
   scroll-margin-top: 110px;
+  row-gap: 168px;
 }
 .simulation-copy h2 {
-  margin-top: 18px;
+  margin-top: 36px;
   font-size: 40px;
 }
 .simulation-copy > p {
   font-size: 12px;
   color: #777d6d;
   line-height: 1.9;
-  margin-top: 19px;
+  margin-top: 38px;
   max-width: 320px;
 }
 .simulation-copy ol {
   list-style: none;
-  margin: 27px 0;
+  margin: 54px 0;
   padding: 0;
   display: grid;
   gap: 14px;
@@ -1230,7 +1232,7 @@ h2 {
   background: #101214;
 }
 .workflow {
-  padding: 94px 0 0;
+  padding: 188px 0 0;
 }
 .section-dark .section-kicker {
   color: #9b9f88;
@@ -1242,7 +1244,8 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 49px;
-  margin-top: 55px;
+  margin-top: 110px;
+  row-gap: 98px;
 }
 .workflow-grid article {
   position: relative;
@@ -1287,7 +1290,7 @@ h2 {
   border: 1px solid #32372a;
   border-radius: 8px;
   background: #171b14;
-  margin-top: 46px;
+  margin-top: 92px;
   font-size: 11px;
   color: #9aa58b;
 }
@@ -1295,13 +1298,14 @@ h2 {
   color: #c1d890;
 }
 .pricing {
-  padding: 110px 0 95px;
+  padding: 220px 0 190px;
 }
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  margin-top: 52px;
+  margin-top: 104px;
+  row-gap: 40px;
 }
 .pricing-card {
   position: relative;
@@ -1391,19 +1395,20 @@ h2 {
   text-align: center;
   color: #777f72;
   font-size: 8px;
-  margin-top: 23px;
+  margin-top: 46px;
 }
 .faq {
-  padding: 6px 0 95px;
+  padding: 12px 0 190px;
 }
 .faq-layout {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 90px;
+  row-gap: 180px;
 }
 .faq-layout h2 {
   font-size: 34px;
-  margin: 19px 0;
+  margin: 38px 0;
 }
 .faq-layout > div > p {
   font-size: 11px;
@@ -1412,7 +1417,7 @@ h2 {
 }
 .faq-layout .text-link {
   color: #d3dda1;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 .faq-item {
   border-bottom: 1px solid #2e342d;
@@ -1443,7 +1448,7 @@ h2 {
   padding: 0 27px 20px 0;
 }
 .cta-section {
-  padding: 0 0 50px;
+  padding: 0 0 100px;
   background: #101214;
 }
 .cta-box {
@@ -1453,7 +1458,7 @@ h2 {
   text-align: center;
   color: #202518;
   border-radius: 15px;
-  padding: 54px 20px 36px;
+  padding: 108px 20px 72px;
 }
 .cta-box .section-kicker {
   color: #69702d;
@@ -1462,13 +1467,13 @@ h2 {
 }
 .cta-box h2 {
   font-size: 37px;
-  margin: 15px 0;
+  margin: 30px 0;
   position: relative;
 }
 .cta-box p {
   font-size: 11px;
   color: #6c7136;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   position: relative;
 }
 .cta-box .button {
@@ -1478,7 +1483,7 @@ h2 {
   display: block;
   font-size: 8px;
   color: #73793c;
-  margin-top: 17px;
+  margin-top: 34px;
 }
 .cta-lines {
   position: absolute;
@@ -1493,14 +1498,14 @@ h2 {
   transform: rotate(-10deg);
 }
 footer {
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   background: #101214;
 }
 .footer-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0 34px;
+  padding: 20px 0 68px;
 }
 .footer-main p {
   font-size: 9px;
@@ -1524,7 +1529,7 @@ footer {
   font-size: 8px;
   color: #616c61;
   border-top: 1px solid #2a3228;
-  padding-top: 23px;
+  padding-top: 46px;
 }
 .preview-note {
   padding: 28px 15px;
@@ -1675,13 +1680,13 @@ footer {
 }
 @media (min-width: 1450px) {
   .hero-content {
-    padding-top: 60px;
+    padding-top: 120px;
   }
   .hero h1 {
     font-size: 86px;
   }
   .dashboard-wrap {
-    margin-top: 75px;
+    margin-top: 150px;
   }
 }
 @media (max-width: 1050px) {
@@ -1717,7 +1722,8 @@ footer {
   .partner-logos {
     padding: 0;
     gap: 22px;
-  }
+    row-gap: 44px;
+}
   .partner-logos > span,
   .partner-logos .booking {
     font-size: 19px;
@@ -1727,7 +1733,8 @@ footer {
   }
   .simulation {
     gap: 40px;
-  }
+    row-gap: 80px;
+}
   .feature-card {
     padding: 22px 19px 0;
   }
@@ -1746,7 +1753,8 @@ footer {
   }
   .faq-layout {
     gap: 45px;
-  }
+    row-gap: 90px;
+}
 }
 @media (max-width: 760px) {
   .container {
@@ -1786,12 +1794,12 @@ footer {
     gap: 23px;
   }
   .hero-content {
-    padding-top: 39px;
+    padding-top: 78px;
   }
   .hero h1 {
     font-size: 56px;
     letter-spacing: -3px;
-    margin-top: 22px;
+    margin-top: 44px;
   }
   .headline-star {
     font-size: 44px;
@@ -1820,7 +1828,7 @@ footer {
     width: 10px;
   }
   .dashboard-wrap {
-    margin-top: 54px;
+    margin-top: 108px;
   }
   .dash-sidebar {
     display: none;
@@ -1902,15 +1910,16 @@ footer {
     font-size: 5px;
   }
   .partners {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
   .partner-logos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px 15px;
     justify-items: center;
-  }
+    row-gap: 50px;
+}
   .partners > p {
     font-size: 9px;
   }
@@ -1931,10 +1940,10 @@ footer {
     font-size: 7px;
     line-height: 1.6;
     max-width: 320px;
-    margin: 25px auto 0;
+    margin: 50px auto 0;
   }
   .light-section {
-    padding: 62px 0;
+    padding: 124px 0;
   }
   .section-heading h2,
   h2 {
@@ -1956,8 +1965,9 @@ footer {
   .feature-grid {
     grid-template-columns: 1fr;
     gap: 15px;
-    margin-top: 32px;
-  }
+    margin-top: 64px;
+    row-gap: 30px;
+}
   .feature-card {
     padding: 24px;
     min-height: 225px;
@@ -2018,8 +2028,9 @@ footer {
   .simulation {
     grid-template-columns: 1fr;
     gap: 30px;
-    margin-top: 64px;
-  }
+    margin-top: 128px;
+    row-gap: 60px;
+}
   .simulation-copy h2 {
     font-size: 34px;
   }
@@ -2029,19 +2040,20 @@ footer {
   .simulation-copy ol {
     gap: 9px;
     font-size: 10px;
-    margin: 22px 0;
+    margin: 44px 0;
   }
   .simulation-panel {
     padding: 20px;
   }
   .workflow {
-    padding-top: 62px;
+    padding-top: 124px;
   }
   .workflow-grid {
     grid-template-columns: 1fr;
     gap: 32px;
-    margin-top: 35px;
-  }
+    margin-top: 70px;
+    row-gap: 64px;
+}
   .workflow-number {
     padding-bottom: 13px;
   }
@@ -2059,16 +2071,17 @@ footer {
     font-size: 9px;
     gap: 7px;
     padding: 17px;
-    margin-top: 33px;
+    margin-top: 66px;
   }
   .pricing {
-    padding: 67px 0 58px;
+    padding: 134px 0 116px;
   }
   .pricing-grid {
     grid-template-columns: 1fr;
     gap: 28px;
-    margin-top: 40px;
-  }
+    margin-top: 80px;
+    row-gap: 56px;
+}
   .pricing-card {
     padding: 28px;
   }
@@ -2090,12 +2103,13 @@ footer {
     line-height: 1.8;
   }
   .faq {
-    padding-bottom: 60px;
+    padding-bottom: 120px;
   }
   .faq-layout {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
+    row-gap: 60px;
+}
   .faq-layout h2 {
     font-size: 31px;
   }
@@ -2110,7 +2124,7 @@ footer {
     font-size: 10px;
   }
   .cta-box {
-    padding: 37px 17px 28px;
+    padding: 74px 17px 56px;
     border-radius: 11px;
   }
   .cta-box h2 {
@@ -2127,13 +2141,13 @@ footer {
     font-size: 7px;
   }
   .cta-section {
-    padding-bottom: 32px;
+    padding-bottom: 64px;
   }
   .footer-main {
     align-items: flex-start;
     gap: 25px;
     flex-direction: column;
-    padding-bottom: 23px;
+    padding-bottom: 46px;
   }
   .footer-main > div:last-child {
     flex-wrap: wrap;
